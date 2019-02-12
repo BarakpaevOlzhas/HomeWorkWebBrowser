@@ -1,0 +1,40 @@
+﻿<Window x:Class="HomeWorkCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWorkCalc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="390.983" Width="430.225">
+    <Grid Background="#FF515151" >
+        <TextBlock></TextBlock>
+        <UniformGrid Rows="5" Columns="4" Margin="0,100,0,0">
+            <Button Content="CE" FontSize="22" Background="#FF444444" Foreground="White"/>
+            <Button Content="C" FontSize="22" Background="#FF444444" Foreground="White"/>
+            <Button Content="%" FontSize="22" Background="#FF444444" Foreground="White"/>
+            <Button Content="/" FontSize="22" Background="#FF3C3C3C" Foreground="White"/>
+
+            <Button Content="1" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="2" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="3" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="*" Background="#FF3C3C3C" Foreground="White"/>
+
+            <Button Content="4" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="5" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="6" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="-" FontSize="22" Background="#FF3C3C3C" Foreground="White"/>
+
+            <Button Content="7" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="8" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="9" FontSize="22" Background="#FF939393" BorderBrush="#FF939393" Foreground="White"/>
+            <Button Content="+" FontSize="22" Background="#FF3C3C3C" Foreground="White"/>
+
+            <Button Content="sqrt" Click="Button_Click" FontSize="22" Background="#FF444444" Foreground="White"/>
+            <Button Content="0" FontSize="22" BorderBrush="#FF939393" Background="#FF939393" Foreground="White"/>
+            <Button Content="," FontSize="22" Background="#FF444444" Foreground="White"/>
+            <Button Content="=" FontSize="22" Background="#FFEE7700" Foreground="Black"/>
+
+        </UniformGrid>
+
+    </Grid>
+</Window>
